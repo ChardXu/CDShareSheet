@@ -26,10 +26,10 @@ class CDShareSheet: UIView {
         // shareToolBar
         let bar = CDShareToolBar.init(frame: CGRect(x: 0, y: CD_SCREEN_HEIGHT, width: CD_SCREEN_WIDTH, height: 0))
 //        bar.backgroundColor = CD_COLOR_RANDOM()
-//        weak var ws = self
+        weak var weakSelf = self
         bar.cCancelClosure = {
             print("cancel")
-            self.hide()
+            weakSelf!.hide()
         }
         shareToolBar = bar
         
@@ -57,6 +57,7 @@ class CDShareSheet: UIView {
     }
     
     deinit {
+        print("CDShareSheet deinit")
         NotificationCenter.default.removeObserver(self, name: Notification.Name.CDShareNoti.CD_HideNotification, object: nil)
     }
     
@@ -74,7 +75,7 @@ class CDShareSheet: UIView {
         if self.superview != nil {
             self.removeFromSuperview()
             
-            NotificationCenter.default.removeObserver(self, name: Notification.Name.CDShareNoti.CD_HideNotification, object: nil)
+//            NotificationCenter.default.removeObserver(self, name: Notification.Name.CDShareNoti.CD_HideNotification, object: nil)
         }
     }
     

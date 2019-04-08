@@ -18,10 +18,10 @@
 		B352A8422255B80A00BB362F /* CDShareDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A8412255B80A00BB362F /* CDShareDefine.swift */; };
 		B352A844225B28A800BB362F /* CDShareSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A843225B28A800BB362F /* CDShareSheetCell.swift */; };
 		B352A846225B37C600BB362F /* CDShareItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A845225B37C600BB362F /* CDShareItemCell.swift */; };
-		B352A84D225BA29000BB362F /* CDShareSheet.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B352A849225BA29000BB362F /* CDShareSheet.podspec */; };
 		B352A84E225BA29000BB362F /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = B352A84A225BA29000BB362F /* ScreenShot.png */; };
 		B352A84F225BA29000BB362F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B352A84B225BA29000BB362F /* LICENSE */; };
 		B352A850225BA29000BB362F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B352A84C225BA29000BB362F /* README.md */; };
+		B352A852225BAF0A00BB362F /* CDShareSheet.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B352A851225BAF0900BB362F /* CDShareSheet.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +38,10 @@
 		B352A8412255B80A00BB362F /* CDShareDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareDefine.swift; sourceTree = "<group>"; };
 		B352A843225B28A800BB362F /* CDShareSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareSheetCell.swift; sourceTree = "<group>"; };
 		B352A845225B37C600BB362F /* CDShareItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareItemCell.swift; sourceTree = "<group>"; };
-		B352A849225BA29000BB362F /* CDShareSheet.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CDShareSheet.podspec; sourceTree = "<group>"; };
 		B352A84A225BA29000BB362F /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
 		B352A84B225BA29000BB362F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B352A84C225BA29000BB362F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B352A851225BAF0900BB362F /* CDShareSheet.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CDShareSheet.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		B352A7C82254AAFA00BB362F = {
 			isa = PBXGroup;
 			children = (
-				B352A849225BA29000BB362F /* CDShareSheet.podspec */,
 				B352A84B225BA29000BB362F /* LICENSE */,
+				B352A851225BAF0900BB362F /* CDShareSheet.podspec */,
 				B352A84C225BA29000BB362F /* README.md */,
 				B352A84A225BA29000BB362F /* ScreenShot.png */,
 				B352A7D32254AAFA00BB362F /* CDShareSheet */,
@@ -164,9 +164,9 @@
 				B352A7DF2254AAFC00BB362F /* LaunchScreen.storyboard in Resources */,
 				B352A7DC2254AAFC00BB362F /* Assets.xcassets in Resources */,
 				B352A850225BA29000BB362F /* README.md in Resources */,
+				B352A852225BAF0A00BB362F /* CDShareSheet.podspec in Resources */,
 				B352A84E225BA29000BB362F /* ScreenShot.png in Resources */,
 				B352A7DA2254AAFA00BB362F /* Main.storyboard in Resources */,
-				B352A84D225BA29000BB362F /* CDShareSheet.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
