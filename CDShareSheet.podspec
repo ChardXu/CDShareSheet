@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = {"chardxu" => "xuchuandong520@gmail.com"}
   s.platform     = :ios, "9.0"
   s.source       = {:git => "https://github.com/ChardXu/CDShareSheet.git", :tag => "#{s.version}"}
-  s.source_files  = "CDShareSheet/*.swift"
+  s.source_files  = "CDShareSheet/CDShareSheet/*.swift"
   s.swift_version = "4.2"
 end
 

@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class CDShareItem: NSObject {
+class CDShareItem: NSObject {
     
     // MARK: - Private
     
