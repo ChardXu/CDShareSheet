@@ -15,8 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let btn = UIButton.init(type: .custom)
-        btn.frame = CGRect(x: 200, y: 200, width: 200, height: 100)
+        btn.frame = CGRect(x: CD_SCREEN_WIDTH/2.0-100, y: 200, width: 200, height: 100)
         btn.backgroundColor = UIColor.red
+        btn.setTitle("分享", for: UIControl.State.normal)
         btn.addTarget(self, action: #selector(btnAction), for: .touchUpInside)
         view.addSubview(btn)
     }
