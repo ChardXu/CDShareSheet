@@ -23,10 +23,10 @@ class ViewController: UIViewController {
     }
     
     @objc func btnAction() {
+        // create items
         let item00 = CDShareItem.cdinit(title: "发送给朋友", icon: "share_wechat_friends") {
             print("发送给朋友")
         }
-        
         let item01 = CDShareItem.cdinit(title: "分享到朋友圈", icon: "share_wechat_moments") {
             print("分享到朋友圈")
         }
@@ -41,12 +41,15 @@ class ViewController: UIViewController {
             print("刷新")
         }
         
+        // part the items
         let shareItems = [item00, item01, item02]
         let functionItems = [item10, item11]
-        let sheet = CDShareSheet.cdinit(shareItems: shareItems, functionItems: functionItems)
-        sheet.show()
         
-        print("btnAction,sheet=", sheet)
+        // create the sheet
+        let sheet = CDShareSheet.cdinit(shareItems: shareItems, functionItems: functionItems)
+        
+        // show the sheet
+        sheet.show()
     }
 }
 
