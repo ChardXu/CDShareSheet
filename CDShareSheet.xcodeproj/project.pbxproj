@@ -12,6 +12,12 @@
 		B352A7DA2254AAFA00BB362F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B352A7D82254AAFA00BB362F /* Main.storyboard */; };
 		B352A7DC2254AAFC00BB362F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B352A7DB2254AAFC00BB362F /* Assets.xcassets */; };
 		B352A7DF2254AAFC00BB362F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B352A7DD2254AAFC00BB362F /* LaunchScreen.storyboard */; };
+		B352A7E82254B03500BB362F /* CDShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A7E72254B03500BB362F /* CDShareSheet.swift */; };
+		B352A7EA2254B1B500BB362F /* CDShareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A7E92254B1B500BB362F /* CDShareItem.swift */; };
+		B352A8402255B3A900BB362F /* CDShareToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A83F2255B3A900BB362F /* CDShareToolBar.swift */; };
+		B352A8422255B80A00BB362F /* CDShareDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A8412255B80A00BB362F /* CDShareDefine.swift */; };
+		B352A844225B28A800BB362F /* CDShareSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A843225B28A800BB362F /* CDShareSheetCell.swift */; };
+		B352A846225B37C600BB362F /* CDShareItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352A845225B37C600BB362F /* CDShareItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		B352A7DB2254AAFC00BB362F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B352A7DE2254AAFC00BB362F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B352A7E02254AAFC00BB362F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B352A7E72254B03500BB362F /* CDShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareSheet.swift; sourceTree = "<group>"; };
+		B352A7E92254B1B500BB362F /* CDShareItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareItem.swift; sourceTree = "<group>"; };
+		B352A83F2255B3A900BB362F /* CDShareToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareToolBar.swift; sourceTree = "<group>"; };
+		B352A8412255B80A00BB362F /* CDShareDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareDefine.swift; sourceTree = "<group>"; };
+		B352A843225B28A800BB362F /* CDShareSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareSheetCell.swift; sourceTree = "<group>"; };
+		B352A845225B37C600BB362F /* CDShareItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDShareItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +66,26 @@
 		B352A7D32254AAFA00BB362F /* CDShareSheet */ = {
 			isa = PBXGroup;
 			children = (
+				B352A7E62254AFFC00BB362F /* CDShareSheet */,
 				B352A7D42254AAFA00BB362F /* AppDelegate.swift */,
 				B352A7D62254AAFA00BB362F /* ViewController.swift */,
 				B352A7D82254AAFA00BB362F /* Main.storyboard */,
 				B352A7DB2254AAFC00BB362F /* Assets.xcassets */,
 				B352A7DD2254AAFC00BB362F /* LaunchScreen.storyboard */,
 				B352A7E02254AAFC00BB362F /* Info.plist */,
+			);
+			path = CDShareSheet;
+			sourceTree = "<group>";
+		};
+		B352A7E62254AFFC00BB362F /* CDShareSheet */ = {
+			isa = PBXGroup;
+			children = (
+				B352A8412255B80A00BB362F /* CDShareDefine.swift */,
+				B352A7E72254B03500BB362F /* CDShareSheet.swift */,
+				B352A83F2255B3A900BB362F /* CDShareToolBar.swift */,
+				B352A843225B28A800BB362F /* CDShareSheetCell.swift */,
+				B352A845225B37C600BB362F /* CDShareItemCell.swift */,
+				B352A7E92254B1B500BB362F /* CDShareItem.swift */,
 			);
 			path = CDShareSheet;
 			sourceTree = "<group>";
@@ -135,7 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B352A7E82254B03500BB362F /* CDShareSheet.swift in Sources */,
+				B352A846225B37C600BB362F /* CDShareItemCell.swift in Sources */,
+				B352A7EA2254B1B500BB362F /* CDShareItem.swift in Sources */,
 				B352A7D72254AAFA00BB362F /* ViewController.swift in Sources */,
+				B352A8422255B80A00BB362F /* CDShareDefine.swift in Sources */,
+				B352A8402255B3A900BB362F /* CDShareToolBar.swift in Sources */,
+				B352A844225B28A800BB362F /* CDShareSheetCell.swift in Sources */,
 				B352A7D52254AAFA00BB362F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
