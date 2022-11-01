@@ -41,6 +41,8 @@ class ViewController: UIViewController {
             print("刷新")
         }
         
+        
+        
         // part the items
         let shareItems = [item00, item01, item02]
         let functionItems = [item10, item11]
